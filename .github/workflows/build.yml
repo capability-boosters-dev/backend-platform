@@ -33,7 +33,7 @@ jobs:
           python-version: 3.7
           architecture: x64
         env:
-          RUNNER_TOOL_CACHE: /opt/hostedtoolcache
+          RUNNER_TOOL_CACHE: /hostedtoolcache
 
 #Lets assume that Python is already there
 #      - name: installing dependencies
